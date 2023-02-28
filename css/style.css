@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body{
+    display : flex;
+    flex-flow: column;
+}
+
+form{
+    align-self: center;
+    background-image: linear-gradient(hsl(0, 100%, 93%), hsl(0, 100%, 40%));
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20% 0 20%;
+}
+
+legend {
+    color: white;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+form > * {
+    margin : 20px;
+    
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tam-container {
+    display : flex;
+    flex-flow: row wrap;
+}
+
+#tam-container > *{
+    margin : 15px;
+}
+
